@@ -13,5 +13,4 @@ function Message(username) {
 // Message.prototype.save = function() {
 // };
 //
-
 export default Message;
