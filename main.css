@@ -1,7 +1,89 @@
-.hidden {
-  display: none; }
-
-li {
-  list-style-type: none; }
+body {
+  background-color: #EBEFFF; }
+  body .login-screen {
+    width: 40%;
+    margin: 0 auto;
+    border: 3px solid #456AFE;
+    border-radius: 5px;
+    background-color: #94A9FC;
+    margin-top: 15%; }
+    body .login-screen h2 {
+      text-align: center;
+      margin-top: 0.5rem;
+      padding: 1rem; }
+    body .login-screen input {
+      padding: 1rem;
+      font-size: 1rem;
+      border: 0;
+      box-sizing: border-box;
+      display: inline-block; }
+    body .login-screen .name {
+      background-color: white;
+      width: 75%;
+      border-top: 2px solid #456AFE;
+      border-right: 2px solid #456AFE; }
+    body .login-screen .login {
+      background-color: #F5F5F1;
+      width: 24.6%;
+      border-top: 2px solid #456AFE;
+      margin-left: -0.2rem; }
+  body .chat-screen {
+    margin-top: 1rem;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: helvetica; }
+    body .chat-screen .chat-title {
+      background-color: #94A9FC;
+      padding: 2rem;
+      margin-top: 0;
+      border-radius: 5px;
+      text-align: center; }
+    body .chat-screen .chat-area {
+      margin-bottom: 1rem;
+      background-color: #C3CFFE;
+      border-radius: 5px; }
+    body .chat-screen .msg-sender {
+      display: inline-block;
+      margin-top: 0.5rem;
+      margin-left: 0.5rem;
+      font-size: 1rem;
+      color: #253D9C;
+      font-weight: bold; }
+    body .chat-screen .msg-time {
+      display: inline-block;
+      float: right;
+      margin-top: 0.5rem;
+      margin-right: 0.3rem;
+      font-size: 0.8rem; }
+    body .chat-screen .msg-body {
+      padding: 1rem;
+      font-size: 1.2rem; }
+  body .msg-area {
+    width: 80%;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-sizing: border-box; }
+    body .msg-area input {
+      padding: 1rem;
+      border: 0;
+      font-size: 1rem;
+      color: white;
+      position: absolute;
+      right: 13.5%; }
+    body .msg-area .new-msg {
+      background-color: #94A9FC;
+      border-radius: 5px;
+      width: 70%;
+      padding: 1rem; }
+    body .msg-area .msg-btn {
+      width: 10%;
+      padding: 1rem;
+      font-weight: bold;
+      margin-left: -0.5rem;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px; }
+  body li {
+    list-style-type: none; }
 
 /*# sourceMappingURL=main.css.map */
