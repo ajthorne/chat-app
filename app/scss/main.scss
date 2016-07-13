@@ -1,7 +1,110 @@
-.hidden {
-  display: none;
-}
+@import 'variables';
 
-li {
-  list-style-type: none;
+body {
+    background-color: $background-color;
+    .login-screen {
+        width: 40%;
+        margin: 0 auto;
+        border: 3px solid $border-color;
+        border-radius: $border-radius;
+        background-color: $secondary-color;
+        margin-top: 15%;
+        h2 {
+            text-align: center;
+            margin-top: 0.5rem;
+            padding: 1rem;
+        }
+        input {
+            padding: 1rem;
+            font-size: 1rem;
+            border: 0;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        .name {
+            background-color: white;
+            width: 75%;
+            border-top: 2px solid $border-color;
+            border-right: 2px solid $border-color;
+        }
+        .login {
+            background-color: #F5F5F1;
+            width: 24.6%;
+            border-top: 2px solid $border-color;
+            margin-left: -0.2rem;
+        }
+    }
+    .chat-screen {
+        margin-top: 1rem;
+        border-radius: $border-radius;
+        width: 80%;
+        margin: 0 auto;
+        font-family: helvetica;
+
+        .chat-title {
+            background-color: $secondary-color;
+            padding: 2rem;
+            margin-top: 0;
+            border-radius: $border-radius;
+            text-align: center;
+        }
+        .chat-area {
+            margin-bottom: 1rem;
+            background-color: #C3CFFE;
+            border-radius: $border-radius;
+        }
+        .msg-sender {
+            display: inline-block;
+            margin-top: 0.5rem;
+            margin-left: 0.5rem;
+            font-size: 1rem;
+            color: #253D9C;
+            font-weight: bold;
+        }
+        .msg-time {
+            display: inline-block;
+            float: right;
+            margin-top: 0.5rem;
+            margin-right: 0.3rem;
+            font-size: 0.8rem;
+        }
+        .msg-body {
+            padding: 1rem;
+            font-size: 1.2rem;
+        }
+        .delete {
+
+        }
+    }
+    .msg-area {
+        width: 80%;
+        border-radius: $border-radius;
+        margin: 0 auto;
+        box-sizing: border-box;
+        input {
+            padding: 1rem;
+            border: 0;
+            font-size: 1rem;
+            color: white;
+            position: absolute;
+            right: 13.5%;
+        }
+        .new-msg {
+            background-color: $secondary-color;
+            border-radius: $border-radius;
+            width: 70%;
+            padding: 1rem;
+        }
+        .msg-btn {
+            width: 10%;
+            padding: 1rem;
+            font-weight: bold;
+            margin-left: -0.5rem;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+    li {
+        list-style-type: none;
+    }
 }

@@ -1,7 +1,7 @@
 import $ from 'jquery';
-import loginFunction from './login';
-import newMessage from './newmessage';
-import deleteFunction from './delete';
-// import renderChat from './chat';
+import router from './router';
 
-// console.log($('.new-msg').val());
+$(window).on('hashchange', router);
+//when url hash is changed, event is listened to
+
+router();
